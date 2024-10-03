@@ -1,0 +1,51 @@
+/* style.css */
+
+body {
+  background-color: #1a1a2e; /* Dark background */
+  color: #e6e6e6; /* Light text color */
+  font-family: 'Arial', sans-serif; /* Font style */
+  text-align: center; /* Centered text */
+  padding: 50px; /* Padding around content */
+}
+
+h1 {
+  color: #00ffff; /* Bright color for the title */
+  font-size: 3em; /* Large title font size */
+  text-shadow: 2px 2px #000; /* Subtle shadow effect */
+}
+
+button {
+  background-color: #007bff; /* Button background color */
+  color: white; /* Button text color */
+  padding: 15px 30px; /* Button padding */
+  border: none; /* No border */
+  border-radius: 8px; /* Rounded corners */
+  font-size: 18px; /* Button font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin: 10px; /* Margin around buttons */
+  transition: 0.3s; /* Transition effect */
+}
+
+button:hover {
+  background-color: #00ffff; /* Button hover color */
+  color: #1a1a2e; /* Button hover text color */
+}
+
+#walletAddress {
+  margin-top: 20px; /* Space above input */
+  font-size: 16px; /* Input font size */
+}
+
+input[type="text"] {
+  padding: 10px; /* Input padding */
+  font-size: 16px; /* Input font size */
+  width: 60%; /* Input width */
+  border: 2px solid #00ffff; /* Input border color */
+  border-radius: 8px; /* Rounded corners for input */
+  margin-top: 20px; /* Space above input */
+}
+
+#status {
+  margin-top: 20px; /* Space above status message */
+  font-weight: bold; /* Bold status text */
+}
