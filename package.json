@@ -1,5 +1,8 @@
 {
+  "name": "my-project",
+  "version": "1.0.0",
+  "type": "module",
   "dependencies": {
-    "@thirdweb-dev/sdk": "^4.0.99"
+    "@thirdweb-dev/sdk": "^X.X.X" // Your installed version
   }
 }
